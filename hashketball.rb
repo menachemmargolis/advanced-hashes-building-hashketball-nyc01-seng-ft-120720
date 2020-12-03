@@ -16,11 +16,15 @@ def game_hash
     :team_name=>"Charlotte Hornets",
     :colors=>["Turquoise","Purple"],
     :players=>[
-      :jeff_adrien=>{:player_name=>"Jeff Adrian", :Number=>4,:Shoe=>18,:points=10,:Rebounds=>1,:Assits=>1, :Steals=>2,:Blocks=>0,:slam_unks=>2},
-      :bismack_biyombo=>{:player_name=>"Bismack Biyombo",:Number=>0,:Shoe=>16,:points=>12,:Rebounds=>4,:Assits=>7,:Steals=>22,:Blocks=>15,:Slam_dunks=>10},
-      :desagna_diop=>{:player_name=>"DeSagna Diop",:Number=>2,:Shoe=>14,:points=>24,:Rebounds=>12,:Assits=>12,:Steals=>4,:Blocks=>5,:Slam_dunks=>5},
-      :ben_gordon=>{:player_name=>"Ben Gordon",:Number=>8,:Shoe=>15,:points=>33,:Rebounds=>3,:Assits=>2,:Steals=>1,:Blocks=>1,:Slam_dunks=>0},
-      :kemba_walker=>{:player_name=>"Kemba Walker",:Number=>33,:Shoe=>15,:points=>6,:Rebounds=>12,:Assits=>12,:Steals=>7,:Blocks=>5,:Slam_dunks=>12}
+  
+    :jeff_adrien=>{ :player_name => "Jeff Adrien", :number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2 },
+    :bismack_biyombo=>{ :player_name => "Bismack Biyombo", :number => 0, :shoe => 16, :points => 12, :rebounds => 4, :assists => 7, :steals => 22, :blocks => 15, :slam_dunks => 10 },
+      
+
+      
+      :desagna_diop =>{ :player_name => "DeSagna Diop", :number => 2, :shoe => 14, :points => 24, :rebounds => 12, :assists => 12, :steals => 4, :blocks => 5, :slam_dunks => 5 },
+      :ben_gordon=>{ :player_name => "Ben Gordon", :number => 8, :shoe => 15, :points => 33, :rebounds => 3, :assists => 2, :steals => 1, :blocks => 1, :slam_dunks => 0 },
+      :kemba_walker=>{ :player_name => "Kemba Walker", :number => 33, :shoe => 15, :points => 6, :rebounds => 12, :assists => 12, :steals => 7, :blocks => 5, :slam_dunks => 12 }
     ]
 
 
